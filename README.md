@@ -14,6 +14,8 @@
 [Contact Schema](#contact-schema)  
 [Collecting contact events](#collecting-contact-events)  
 [Event Schema](#event-schema)
+[Data Collection](#data-collection)  
+
 
 ## Getting Started
 
@@ -220,6 +222,10 @@ Each event is identified using a String. The maximum length of an event name is 
 ### Properties
 
 Any event can have properties associated with it. These properties have a String key and String value. Property names are limited to A-z and underscores.
+
+## Data Collection
+
+The Mailchimp mobile SDK does not track your users. The Mailchimp mobile SDK automatically adds your mobile application users to your Mailchimp audience so that you can send them marketing communications. Mailchimp does not provide information about your app’s users to data brokers. The mobile SDK does not combine user data from your app with information from other apps in order to place targeted advertisements. For more information regarding Mailchimp’s mobile SDK, please click [here](https://mailchimp.com/help/mobile-sdk/).
 
 ## FAQ
 
